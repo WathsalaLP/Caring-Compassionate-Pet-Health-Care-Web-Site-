@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation Form</title>
+    <link rel="stylesheet" href="./reservation.css">
+</head>
+<body>
+    <!-- == Reservation Form == -->
+
+    <div class="container">
+    <div class="title">Reservation Form</div>
+    <form action="reservationForm.php" method="post">
+        <div class="user_details">
+            <div class="input_box">
+                <span class="details"> Your Name: </span>
+                <input type="text" name="owner_name" placeholder="Enter your name" name="owner_name" required>
+            </div> 
+        <div class="input_box">
+            <span class="details">Pet's Name:</span>
+            <input type="text" name="pet_name" placeholder="Enter the name of pet" name="pet_name" required>
+        </div>
+        <div class="input_box">
+            <span class="details">Pet Type:</span>
+            <input type="text" name="pet_type" placeholder="cat/dag"  name="pet_type" required>
+        </div>   
+        <div class="input_box">
+            <span class="details">Pet's Age :</span>
+            <input type="text" name="pet_age" placeholder="Enter the age of pet" name="pet_age" required>
+        </div> 
+        <div class="input_box">
+            <span class="details">Date of birth :</span>
+            <input type="date" name="dob" placeholder="Enter the dob of pet" name="dob" required>
+        </div>
+        <div class="input_box">
+            <span class="details">Breed :</span>
+            <input type="text" name="breed" placeholder="Breed" name="breed" required>
+        </div> 
+        <div class="input_box">
+            <span class="details">Contact Number:</span>
+            <input type="text" name="contact_number" placeholder=" 07xxxxxxxx" name="contact_number" required>
+        </div>
+        
+        <div class="input_box">
+            <span class="doctor"> <b>Choose your doctor: </span></b>
+            <br>
+            <select class="select_box" name="select_doctor" id="cars">
+            
+            <option value="doc">Choose the doctor</option>
+            <option value="Dr. Y.H.P.S.N.Kumara">Dr. Y.H.P.S.N.Kumara</option>
+            <option value="Dr. Y. G. K. de Silva">Dr. Y. G. K. de Silva</option>
+            <option value="Dr. Y. A. M. Saumya Wickramasinghe">Dr. Y. A. M. Saumya Wickramasinghe</option>
+            <option value="Dr. W.U.C GUNASEKERA">Dr. W.U.C GUNASEKERA</option>
+            </select>
+    </div> 
+    </div>
+    <div >
+        
+           <button class="button" type="submit" value="submit"><a href="home.html"> Submit</a></button>
+        
+    </div>
+    </form>
+    </div>
+</body>
+</html>

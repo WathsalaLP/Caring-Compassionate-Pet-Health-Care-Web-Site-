@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="./styleform.css">
+</head>
+<body>
+    <!-- == Registration Form == -->
+
+    <div class="container">
+    <div class="title">Registration Form</div>
+    <form action="regForm.php" method="post">
+        <div class="user_details">
+            <div class="input_box">
+                <span class="details"> Owner's Name: </span>
+                <input type="text" name="owner_name" placeholder="Enter the Owner of pet" name="owner_name" required>
+            </div> 
+        <div class="input_box">
+            <span class="details">Pet's Name:</span>
+            <input type="text" name="pet_name" placeholder="Enter the name of pet" name="pet_name" required>
+        </div>
+        <div class="input_box">
+            <span class="details">Pet Type:</span>
+            <input type="text" name="pet_type" placeholder="cat/dag"  name="pet_type" required>
+        </div> 
+        <div class="input_box">
+            <span class="details">Contact Number:</span>
+            <input type="text" name="contact_number" placeholder=" 07xxxxxxxx" name="contact_number" required>
+        </div>  
+        <div class="input_box">
+            <span class="details">Password :</span>
+            <input type="password" name="password" placeholder="min 4 digits" name="password" required>
+        </div> 
+        <div class="input_box">
+            <span class="details">Confirm Password :</span>
+            <input type="password" name="confirm_password" placeholder="re enter the password" name="confirm_password" required>
+        </div> 
+    </div> 
+    <div class="petGender">
+        <input type="radio" name="gender" id="dot1" value="Male">
+        <input type="radio" name="gender" id="dot2" value="Female">
+        <span class="gender_pet">Gender of the Pet : </span>
+        <div class="category">
+            <label for="dot1">
+                <span class="dot one" value="Male"></span>
+                <span class="gender">Male</span>
+            </label>
+            <label for="dot2">
+                <span class="dot two" value="Female"></span>
+                <span class="gender">Female</span>
+            </label>
+        </div>
+    </div>
+    <div class="button">
+        <input type="submit" value="Register"> <a href="onlinestore.html"></a>   
+    </div>
+    <div class="login">
+    <i>Already have an account</i> &nbsp;<a href="login1.html">Login
+    </div>
+    </form>
+    </div>
+</body>
+</html>

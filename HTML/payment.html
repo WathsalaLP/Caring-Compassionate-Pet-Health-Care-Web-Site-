@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+
+    <!-- === CSS Linking part=== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="payment.css">
+
+</head>
+<body>
+    <div class="container">
+
+        <form action="">
+            <div class="row">
+                <div class="col">
+                    <h3 class="title">
+                        billing address
+                    </h3>
+                    <div class="inputbox">
+                        <span>Full Name </span>
+                        <input type="text"placeholder="full name">
+                    </div>
+
+                    <div class="inputbox">
+                        <span>Email </span>
+                        <input type="email"placeholder="123@ex.com">
+                    </div>
+                    <div class="inputbox">
+                        <span>Address </span>
+                        <input type="text"placeholder="address">
+                    </div>
+                    <div class="inputbox">
+                        <span>City </span>
+                        <input type="text"placeholder="Kandy">
+                    </div>
+                    <div class="flex">
+                        <div class="inputbox">
+                            <span>State </span>
+                            <input type="text"placeholder="Sri Lanka">
+                        </div>
+                        <div class="inputbox">
+                            <span>Zip Code </span>
+                            <input type="text"placeholder="Zip Code">
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+                <div class="col">
+                    <h3 class="title">
+                        Payment
+                    </h3>
+                    <div class="inputbox">
+                        <span>Type of Card </span>
+                        <img src="PAYMENT.svg" alt="">
+                    </div>
+                    <div class="inputbox">
+                        <span>Name of Card</span>
+                        <input type="text"placeholder="">
+                    </div> 
+                    <div class="inputbox">
+                        <span>Card Number </span>
+                        <input type="number"placeholder="xxxx xxxx xxxx xxxx">
+                    </div>
+                    <div class="inputbox">
+                        <span>EXP Month</span>
+                        <input type="number"placeholder="xx">
+                    </div>
+                    <div class="flex">
+                        <div class="inputbox">
+                            <span>EXP Year </span>
+                            <input type="number"placeholder="xxxx">
+                        </div>
+                        <div class="inputbox">
+                            <span>CVV</span>
+                            <input type="number"placeholder="xxx">
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+            <input type="submit" value="proceed to checkout" class="paysubmit">
+        </form>
+
+    </div>
+</body>
+</html>
